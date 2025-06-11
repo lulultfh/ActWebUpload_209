@@ -1,5 +1,7 @@
 # 1. Sebelum Unggah
 ![image](https://github.com/user-attachments/assets/7cd104f7-0d62-4e3f-9491-de00ecaaafd1)
+![image](https://github.com/user-attachments/assets/0ff6f315-3f2e-4d64-ad2b-c53cea896502)
+
 # 2. Preview
 ![image](https://github.com/user-attachments/assets/280296a4-b69f-4c16-8924-521b5532072f)
 # 3. Hasil Upload

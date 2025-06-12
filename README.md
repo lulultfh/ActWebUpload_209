@@ -1,14 +1,12 @@
-# 1. Sebelum Unggah
-![image](https://github.com/user-attachments/assets/7cd104f7-0d62-4e3f-9491-de00ecaaafd1)
-![image](https://github.com/user-attachments/assets/0ff6f315-3f2e-4d64-ad2b-c53cea896502)
+# 1. Menambahkan preview sebelum mengunggah
+![WhatsApp Image 2025-06-12 at 14 31 15](https://github.com/user-attachments/assets/b0c7ce8f-9457-43ac-8647-1f458a5993b8)
 
-# 2. Preview
-![image](https://github.com/user-attachments/assets/280296a4-b69f-4c16-8924-521b5532072f)
 # 3. Hasil Upload
-![image](https://github.com/user-attachments/assets/f9ee066e-21de-48a9-8e8e-1a743dfcdd2b)
-![image](https://github.com/user-attachments/assets/26f0c7d8-aacb-49d8-a2f4-4d955fb5f878)
+![WhatsApp Image 2025-06-12 at 14 31 26](https://github.com/user-attachments/assets/a46baa94-49e5-4398-ad23-b73e33706ca4)
+
 # 4. Hasil Unduh
-![image](https://github.com/user-attachments/assets/e680c84d-6c64-49d7-bb87-2e6224bba9da)
+![WhatsApp Image 2025-06-12 at 14 32 23](https://github.com/user-attachments/assets/d542487f-7e43-4635-89db-fc0f1e7172ef)
+
 # 5. Hasil hapus
-![image](https://github.com/user-attachments/assets/5f2aa0d3-9296-4466-9b7b-737d24ab7e8c)
-![image](https://github.com/user-attachments/assets/3d9b106e-93c9-4086-ab4d-5913241cc4fd)
+![WhatsApp Image 2025-06-12 at 14 32 37](https://github.com/user-attachments/assets/b528add8-0c53-4daa-b32f-29528950c081)
+![WhatsApp Image 2025-06-12 at 14 32 47](https://github.com/user-attachments/assets/76580872-a894-4840-9205-bc61f4a6de40)

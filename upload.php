@@ -8,7 +8,7 @@ if ($_FILES["fileToUpload"]["size"] > 500000) {
 }
 
 if (move_uploaded_file($_FILES["fileToUpload"]["tmp_name"], $target_file)) {
-    header("Location: index.php");
+    header("Location: list.php");
     exit;
 } else {
     echo "Gagal mengunggah file.";

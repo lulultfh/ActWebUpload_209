@@ -4,6 +4,6 @@ $path = "uploads/" . basename($file);
 if (file_exists($path)) {
     unlink($path);
 }
-header("Location: index.php");
+header("Location: list.php");
 exit;
 ?>

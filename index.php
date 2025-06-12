@@ -1,25 +1,24 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Web Upload</title>
+    <title>Unggah Gambar</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-<h2>Unggah File</h2>
-<form action="upload.php" method="post" enctype="multipart/form-data">
-    Pilih file:
-    <input type="file" name="fileToUpload" id="fileToUpload" onchange="previewFile()">
-    <input type="submit" value="Unggah" name="submit">
-</form>
-
-<br>
-<img id="preview" src="#" alt="Preview akan muncul di sini" style="max-width:200px; display:none;"/>
+<div class="container">
+    <h2>Unggah File</h2>
+    <form action="upload.php" method="post" enctype="multipart/form-data">
+        <input type="file" name="fileToUpload" id="fileToUpload" onchange="previewFile()" required><br><br>
+        <img id="preview" src="#" alt="Preview" style="max-width:100%; display:none;"/><br>
+        <input type="submit" value="Unggah">
+    </form>
+</div>
 
 <script>
 function previewFile() {
     var preview = document.getElementById('preview');
-    var file    = document.getElementById('fileToUpload').files[0];
-    var reader  = new FileReader();
+    var file = document.getElementById('fileToUpload').files[0];
+    var reader = new FileReader();
 
     reader.onloadend = function () {
         preview.src = reader.result;
@@ -33,22 +32,5 @@ function previewFile() {
     }
 }
 </script>
-
-<hr>
-<h3>Daftar File yang Telah Diupload</h3>
-<ul>
-<?php
-$files = scandir("uploads");
-foreach($files as $file) {
-    if ($file !== "." && $file !== "..") {
-        echo "<li>$file - 
-        <a href='uploads/$file' download>Unduh</a> | 
-        <a href='delete.php?file=$file' onclick=\"return confirm('Yakin ingin menghapus?')\">Hapus</a>
-        </li>";
-    }
-}
-?>
-</ul>
-
 </body>
 </html>
